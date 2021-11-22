@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             var letraaleatoria: Char = Random.nextInt(97, 122).toChar()
             cadena= cadena.replaceRange(tamanio, tamanio + 1, letraaleatoria.toString())
             binding.tv1.text = cadena
-            Toast.makeText(this,"nueva letra " +letraaleatoria+ " Posicion " + posletra,Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"cambio la letra "+ posletra+ " por la letra " +letraaleatoria+ " siendo "+posletra+ " la letra que se quita ,e "+letraaleatoria+ " la que se añade",Toast.LENGTH_LONG).show()
 
         }
 
